@@ -1,6 +1,8 @@
+import "./style.css";
+
 function PlayerName(props) {
   return `
-    <span>${props}</span>
+    <span class="player-name">${props}</span>
   `;
 }
 
