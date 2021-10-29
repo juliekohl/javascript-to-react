@@ -1,6 +1,6 @@
-function PlayerScore(){
+function PlayerScore(points = 0){
     return `
-      <ol>
+      <ol data-points="${points}">
         <li>Um</li>
         <li>Dois</li>    
         <li>Três</li>    
