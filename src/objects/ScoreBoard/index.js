@@ -9,7 +9,7 @@ function ScorerBoard() {
       ${PlayerName("Player 1")}
       ${PlayerScore(1)}
       ${VsPlayer()}
-      ${PlayerScore()}
+      ${PlayerScore(2)}
       ${PlayerName("Player 2")}
     </header>
   `;
